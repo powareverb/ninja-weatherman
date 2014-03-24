@@ -1,0 +1,16 @@
+{
+  "name": "usbtest",
+  "version": "0.0.1",
+  "description": "USB Test spikes for the ninja block",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/powareverb/ninjaspikes.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "usb": "~0.3.1",
+  },
+  "keywords": [
+    "spike"
+  ]
+}

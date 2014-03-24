@@ -1,0 +1,18 @@
+'use strict';
+
+var usb = require('usb');
+var vid = 6465;
+var pid = 
+    console.log(entry);
+;
+
+var dev = usb.findByIds(vid, pid)
+var items = usb.getDeviceList();
+
+items.forEach(function(entry) {
+    console.log(entry);
+});
+
+//console.log(dev);
+
+
